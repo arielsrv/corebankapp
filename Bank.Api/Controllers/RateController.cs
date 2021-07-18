@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Bank.Api.Services;
+using Bank.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Bank.Api.Controllers

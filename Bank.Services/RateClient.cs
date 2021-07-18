@@ -4,9 +4,12 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 
-namespace Bank.Api.Services
+#pragma warning disable 8603
+#pragma warning disable 8600
+
+namespace Bank.Services
 {
-    internal class RateClient : IRateClient
+    public class RateClient : IRateClient
     {
         private readonly HttpClient httpClient;
 
@@ -15,12 +18,12 @@ namespace Bank.Api.Services
             this.httpClient = httpClient;
         }
 
-        public async Task<List<RateResponse>?> GetRates()
+        public async Task<List<RateResponse>> GetRates()
         {
             const string url = "http://quiet-stone-2094.herokuapp.com/rates.json";
             string responseString = await httpClient.GetStringAsync(url);
 
-            List<RateResponse>? result = JsonConvert.DeserializeObject<List<RateResponse>>(responseString);
+            List<RateResponse> result = JsonConvert.DeserializeObject<List<RateResponse>>(responseString);
             return result;
         }
     }

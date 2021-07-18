@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Bank.Api.Services
+namespace Bank.Services
 {
     public class RateService : IRateService
     {
@@ -15,7 +15,7 @@ namespace Bank.Api.Services
 
         public async Task<List<RateDto>> GetRates()
         {
-            List<RateResponse>? response = await rateClient.GetRates();
+            List<RateResponse> response = await rateClient.GetRates();
 
             List<RateDto> result = new();
 

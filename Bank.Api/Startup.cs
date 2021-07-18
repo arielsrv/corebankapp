@@ -1,4 +1,4 @@
-using Bank.Api.Services;
+using Bank.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;

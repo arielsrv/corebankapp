@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank.Api", "Bank.Api\Bank.Api.csproj", "{38626C37-E508-4EA5-9D13-57EB4B8873DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank.Services", "Bank.Services\Bank.Services.csproj", "{41F5B71A-7727-4E17-9713-5C1D1C93FA13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank.Test", "Bank.Test\Bank.Test.csproj", "{68243A34-8C09-4ECD-B5CC-BF3A46F347E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{38626C37-E508-4EA5-9D13-57EB4B8873DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38626C37-E508-4EA5-9D13-57EB4B8873DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38626C37-E508-4EA5-9D13-57EB4B8873DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41F5B71A-7727-4E17-9713-5C1D1C93FA13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41F5B71A-7727-4E17-9713-5C1D1C93FA13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41F5B71A-7727-4E17-9713-5C1D1C93FA13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41F5B71A-7727-4E17-9713-5C1D1C93FA13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68243A34-8C09-4ECD-B5CC-BF3A46F347E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68243A34-8C09-4ECD-B5CC-BF3A46F347E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68243A34-8C09-4ECD-B5CC-BF3A46F347E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68243A34-8C09-4ECD-B5CC-BF3A46F347E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

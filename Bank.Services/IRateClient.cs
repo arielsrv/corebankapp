@@ -1,10 +1,10 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Bank.Api.Services
+namespace Bank.Services
 {
     public interface IRateClient
     {
-        Task<List<RateResponse>?> GetRates();
+        Task<List<RateResponse>> GetRates();
     }
 }

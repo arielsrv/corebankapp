@@ -1,6 +1,6 @@
-namespace Bank.Api.Services
+namespace Bank.Services
 {
-    public class RateResponse
+    public class RateDto
     {
         public string From { get; set; }
         public string To { get; set; }

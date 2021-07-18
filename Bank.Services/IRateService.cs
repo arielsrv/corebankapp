@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Bank.Api.Services
+namespace Bank.Services
 {
     public interface IRateService
     {

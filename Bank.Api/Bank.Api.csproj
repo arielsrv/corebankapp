@@ -13,6 +13,11 @@
 
     <ItemGroup>
       <Folder Include="Clients" />
+      <Folder Include="Services" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Bank.Services\Bank.Services.csproj" />
     </ItemGroup>
 
 </Project>
