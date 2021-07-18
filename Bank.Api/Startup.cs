@@ -25,7 +25,10 @@ namespace Bank.Api
             services.AddHttpClient<IRateClient, RateClient>();
             services.AddScoped<IRateService, RateService>();
 
-            services.AddSwaggerGen(c => { c.SwaggerDoc("v1", new OpenApiInfo {Title = "Bank.Api", Version = "v1"}); });
+            services.AddSwaggerGen(swaggerGenOptions =>
+            {
+                swaggerGenOptions.SwaggerDoc("v1", new OpenApiInfo {Title = "Bank.Api", Version = "v1"});
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
